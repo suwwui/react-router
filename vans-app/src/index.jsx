@@ -12,7 +12,7 @@ import HostVans from "./pages/Host/HostVans"
 import HostVanDetail from "./pages/Host/HostVanDetail"
 import Layout from "./components/Layout"
 import HostLayout from "./components/HostLayout"
-
+import "./index"
 import "./server"
 
 function App() {
