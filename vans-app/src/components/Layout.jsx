@@ -8,9 +8,9 @@ export default function Layout() {
   return (
     <Box sx={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
       <Header />
-      <main>
+      <Box>
         <Outlet />
-      </main>
+      </Box>
       <Footer />
     </Box>
   );
